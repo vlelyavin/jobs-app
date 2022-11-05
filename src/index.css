@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .listItemYellow {
+    font-weight: bold;
+    text-align: center;
+    background: theme("colors.listItemYellowBg");
+    border: 1px solid theme("colors.listItemYellowBorderClr");
+    border-radius: 8px;
+    color: theme("colors.listItemYellowTextClr");
+    padding: 17px 0;
+    width: 200px;
+  }
+  .listItemBlue {
+    font-weight: bold;
+    text-align: center;
+    background: theme("colors.listItemBg");
+    border: 1px solid theme("colors.listItemBorderClr");
+    border-radius: 8px;
+    color: theme("colors.bright");
+    padding: 17px 0;
+    width: 200px;
+  }
+  .applyButton {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: theme("colors.white");
+    background: theme("colors.dark");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 30px;
+    border-radius: 8px;
+  }
+  .secondaryTitle {
+    position: relative;
+    font-weight: bold;
+    color: theme("colors.dark");
+    font-size: 28px;
+    margin: 85px 0 0 0;
+  }
+  .secondaryTitle::after {
+    position: absolute;
+    content: "";
+    bottom: -6px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: theme("colors.dark");
+    opacity: 0.13;
+  }
+  .additionalInfo {
+    margin: 25px 0 10px;
+    font-size: 18px;
+  }
+  .contactInfo {
+    position: relative;
+    font-size: 18px;
+    color: theme("colors.lightgray");
+    z-index: 2;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: theme("fontFamily.proximaNova");
+  color: theme("colors.secondary");
+  overflow-x: hidden;
+  background: theme("colors.lightBg");
+}
