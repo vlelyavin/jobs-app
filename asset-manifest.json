@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/jobs-app/static/css/main.b784bb20.css",
-    "main.js": "/jobs-app/static/js/main.9264dd2d.js",
+    "main.js": "/jobs-app/static/js/main.9a9f328e.js",
     "static/media/map.png": "/jobs-app/static/media/map.c12f7c763236cc03b0e8.png",
     "index.html": "/jobs-app/index.html",
     "main.b784bb20.css.map": "/jobs-app/static/css/main.b784bb20.css.map",
-    "main.9264dd2d.js.map": "/jobs-app/static/js/main.9264dd2d.js.map"
+    "main.9a9f328e.js.map": "/jobs-app/static/js/main.9a9f328e.js.map"
   },
   "entrypoints": [
     "static/css/main.b784bb20.css",
-    "static/js/main.9264dd2d.js"
+    "static/js/main.9a9f328e.js"
   ]
 }
